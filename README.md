@@ -1,7 +1,34 @@
-# Vue 3 + Vite
+<div align="center">
+    <h1>Vue3-template</h1>
+    English | <a href="https://github.com/labbomb/vue3-template/blob/main/README.zh-CN.md">中文</a>
+    <br />
+    A basic Vue3 template
+</div>
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+> This is a template based on the `Vue3`, hope to give you some help.
 
-## Recommended IDE Setup
+### Introduce
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+- Integration with 'Axios', and simple encapsulation, easy to use
+- Encapsulates a simple front-end error request exception capture feature to help you quickly locate problems
+- Full support for 'Typescript'
+- 'Prettier' is configured to provide a more formal development model that can be run by command
+- Installed 'Nprogress' for smoother loading animations
+- Integrated 'Vue-Router', reasonable structured routing configuration, let you feel more secure to manage it
+
+### Install
+
+```shell
+pnpm install
+```
+
+```shell
+# start
+pnpm run dev
+
+# build
+pnpm run build
+
+#prettier
+pnpm run prettier
+```
