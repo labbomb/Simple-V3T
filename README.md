@@ -9,13 +9,13 @@
 
 ### Introduce
 
-- Integration with `Axios`, and simple encapsulation, easy to use
+- Integrated `Axios`, and simple encapsulation, easy to use
 - Encapsulates a simple front-end error request exception capture feature to help you quickly locate problems
 - Full support for `Typescript`
 - `Prettier` is configured to provide a more formal development model that can be run by command
 - Installed `Nprogress` for smoother loading animations
 - Integrated `Vue-Router`, reasonable structured routing configuration, let you feel more secure to manage it
-- Integrates ` Pinia `
+- Integrated ` Pinia `
 
 ### Install
 
