@@ -1,21 +1,13 @@
-import { defineComponent, PropType } from 'vue'
+import { defineComponent } from 'vue'
 import styles from './index.module.scss'
 
-const props = {
-  msg: {
-    type: String as PropType<string>,
-    default: ''
-  }
-}
 export default defineComponent({
   name: 'Home',
-  props,
   setup() {
   },
   render() {
     return (
       <div class={styles.container}>
-        <div>{this.msg}</div>
         <p>
           Recommended IDE setup:
           <a href="https://code.visualstudio.com/" target="_blank">VS Code</a>
