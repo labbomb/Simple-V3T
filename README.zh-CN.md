@@ -16,6 +16,7 @@
 - 安装了 `Nprogress` , 更加平滑的加载动画
 - 集成了 `Vue-Router` , 合理的结构化路由配置, 让你更加安心的去管理它
 - 集成了 `Pinia`
+- 集成了 `unplugin-auto-import`
 
 ### 安装
 
