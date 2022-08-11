@@ -10,7 +10,12 @@ const login = defineComponent({
   },
   render() {
     return (
-      <div onClick={this.handleLogin} class={styles.container}>login</div>
+      <div class={styles.container}>
+        <div class={styles.card}>
+          <div class={styles.logo}>Simple-V3T</div>
+          <div class={styles.login} onClick={this.handleLogin}>LOGIN</div>
+        </div>
+      </div>
     )
   }
 })

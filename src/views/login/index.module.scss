@@ -4,5 +4,53 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #0098e1;
+  opacity: 0.7;
+  background-image: url(@/assets/images/pattern.svg);
+  background-color: #60bb7d;
+
+  .card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    width: 400px;
+    background: #fff;
+    box-shadow: 0 2px 4px rgb(255 255 255 / 90%);
+    border-radius: 18px;
+    transition: all .15s ease .15s;
+
+    .logo {
+      width: 100%;
+      font-size: 26px;
+      font-style: italic;
+      text-align: center;
+      font-weight: bold;
+      padding: 18px;
+    }
+
+    @-webkit-keyframes bg-move {
+      0%   { background-position: -500px 0; }
+      100% { background-position: 1000px 0; }
+    }
+    @keyframes bg-move {
+      0%   { background-position: -500px 0; }
+      100% { background-position: 1000px 0; }
+    }
+
+    .login {
+      font-size: 14px;
+      font-style: italic;
+      font-weight: bold;
+      color: #FFF;
+      background: #1c93e3;
+      border-radius: 24px;
+      padding: 12px 24px;
+      cursor: pointer;
+      -webkit-font-smoothing: antialiased;
+      background-image: linear-gradient(270deg, rgba(100, 181, 239, 0) 48.44%, #64b5ef 75.52%, rgba(100, 181, 239, 0) 100%);
+      background-repeat: no-repeat;
+      animation: bg-move linear 4s infinite;
+    }
+  }
 }
