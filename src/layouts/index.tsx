@@ -1,4 +1,3 @@
-import { defineComponent } from 'vue'
 import styles from './index.module.scss'
 
 const Content = defineComponent({
@@ -8,8 +7,7 @@ const Content = defineComponent({
   },
   render() {
     return (
-      <div>
-        <div class={styles.container}>this is header</div>
+      <div class={styles.container}>
         <router-view />
       </div>
       

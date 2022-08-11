@@ -1,4 +1,3 @@
-import { defineComponent } from 'vue'
 import { useLogin } from './use-login'
 import styles from './index.module.scss'
 
