@@ -9,31 +9,31 @@
     "prettier": "prettier --write \"src/**/*.{vue,ts,tsx}\""
   },
   "dependencies": {
-    "vue": "^3.2.41",
+    "vue": "^3.2.45",
     "qs": "^6.11.0",
-    "axios": "^1.1.3",
+    "axios": "^1.2.1",
     "lodash": "^4.17.21",
     "nprogress": "^0.2.0",
-    "pinia": "^2.0.23",
-    "pinia-plugin-persistedstate": "^2.3.0",
-    "vue-router": "^4.1.5"
+    "pinia": "^2.0.27",
+    "pinia-plugin-persistedstate": "^3.0.1",
+    "vue-router": "^4.1.6"
   },
   "devDependencies": {
-    "@types/node": "^18.11.2",
+    "@types/node": "^18.11.11",
     "@types/nprogress": "^0.2.0",
-    "@types/lodash": "^4.14.186",
+    "@types/lodash": "^4.14.191",
     "@types/qs": "^6.9.7",
-    "@vitejs/plugin-vue": "^3.1.2",
-    "@vitejs/plugin-vue-jsx": "^2.0.1",
-    "typescript": "^4.8.4",
-    "prettier": "^2.7.1",
-    "typescript-plugin-css-modules": "^3.4.0",
-    "unplugin-auto-import": "^0.11.2",
-    "vite": "^3.1.8",
+    "@vitejs/plugin-vue": "^3.2.0",
+    "@vitejs/plugin-vue-jsx": "^2.1.1",
+    "typescript": "^4.9.3",
+    "prettier": "^2.8.0",
+    "typescript-plugin-css-modules": "^4.1.1",
+    "unplugin-auto-import": "^0.12.0",
+    "vite": "^3.2.5",
     "vite-plugin-compression": "^0.5.1",
-    "vue-tsc": "^1.0.8",
-    "sass": "^1.55.0",
-    "sass-loader": "^13.1.0"
+    "vue-tsc": "^1.0.11",
+    "sass": "^1.56.1",
+    "sass-loader": "^13.2.0"
   },
   "pnpm": {
     "peerDependencyRules": {
