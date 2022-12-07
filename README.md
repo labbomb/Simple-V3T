@@ -16,7 +16,8 @@
 - Installed `Nprogress` for smoother loading animations
 - Integrated `Vue-Router`, reasonable structured routing configuration, let you feel more secure to manage it
 - Integrated ` Pinia `
-- Integrated ` unplugin-auto-import `
+- Integrated ` Unplugin-Auto-Import `
+- Integrated ` Date-fns `
 
 ### Install
 
