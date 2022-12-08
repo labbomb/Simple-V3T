@@ -29,8 +29,8 @@ const baseRequestConfig: AxiosRequestConfig = {
       return params
     }
   },
-  paramsSerializer: (params: any) => {
-    return qs.stringify(params, { arrayFormat: 'repeat' })
+  paramsSerializer: {
+    encode: (params) => qs.stringify(params, { arrayFormat: 'repeat' })
   }
 }
 
