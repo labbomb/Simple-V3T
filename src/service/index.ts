@@ -30,8 +30,10 @@ const baseRequestConfig: AxiosRequestConfig = {
     }
   },
   paramsSerializer: {
-    encode: (params) => qs.stringify(params, { arrayFormat: 'repeat' })
-  }
+		serialize: (params) => {
+			return qs.stringify(params, { arrayFormat: 'repeat' })
+		}
+	}
 }
 
 const service = axios.create(baseRequestConfig)
